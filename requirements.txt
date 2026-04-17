@@ -1,5 +1,10 @@
 dash
+dash-bootstrap-components
 pandas
-scikit-learn
-xgboost
+numpy
+joblib
+plotly
 shap
+xgboost
+scikit-learn
+gunicorn
