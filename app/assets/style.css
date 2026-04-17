@@ -1,0 +1,65 @@
+:root {
+    --hospital-blue: #0f172a;      
+    --clinical-accent: #3b82f6;    
+    --success-glow: #10b981;       
+    --warning-glow: #f59e0b;      
+    --danger-glow: #ef4444;      
+    --surface: #1e293b;            
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+}
+
+body {
+    background-color: var(--hospital-blue);
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: var(--text-main);
+}
+
+/* Header */
+.custom-header {
+    background: var(--surface);
+    border-bottom: 2px solid var(--clinical-accent);
+    padding: 20px 40px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Grouping inputs into "Cards" */
+.form-section {
+    background: var(--surface);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.section-title {
+    color: var(--clinical-accent);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Results Panel */
+.glass-panel {
+    background: var(--surface);
+    border-left: 4px solid var(--clinical-accent);
+    padding: 40px;
+    border-radius: 12px;
+    height: 100%;
+}
+
+/* Inputs styling */
+.custom-input {
+    background: #0f172a !important;
+    border: 1px solid #334155 !important;
+    color: white !important;
+    border-radius: 6px !important;
+}
+
+.custom-input:focus {
+    border-color: var(--clinical-accent) !important;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important;
+}
